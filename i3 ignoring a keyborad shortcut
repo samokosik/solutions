@@ -1,0 +1,6 @@
+bindsym --release $mod+t exec picom-trans -s 100
+
+https://i3wm.org/docs/userguide.html#keybindings
+
+Some tools (such as import or xdotool) might be unable to run upon a KeyPress event, because the keyboard/pointer is still grabbed. 
+For these situations, the --release flag can be used, which will execute the command after the keys have been released."
